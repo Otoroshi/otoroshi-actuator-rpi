@@ -1,0 +1,12 @@
+#!.venv/bin/python
+
+from autobahn.asyncio.wamp import ApplicationRunner
+from actuator_rpi import AppSession
+
+config = {
+    'rpi_config': 'OTOROSHI_RPI_CONFIG'
+}
+
+runner = ApplicationRunner(
+    url=u"ws://localhost:8080/ws", realm=u"otoroshi", extra=config)
+runner.run(AppSession)

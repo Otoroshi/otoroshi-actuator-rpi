@@ -1,0 +1,11 @@
+# Virtualenv
+.venv
+
+# Cache files
+*.pyc
+*.swp
+__pycache__
+pip-selfcheck.json
+
+# Config file
+config.ini

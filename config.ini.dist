@@ -1,0 +1,12 @@
+[general]
+username=actuator
+password=actuator
+pinmode=bcm
+
+[1]
+reload_timeout=10
+default=LOW
+
+[2]
+reload_timeout=10
+default=LOW
